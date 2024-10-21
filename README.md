@@ -4,3 +4,4 @@
 - [HTML 이미지 태그](./02_img/README.md)
 - [CSS](./03_css/README.md)
 - [기초선택자](./04_selector/README.md)
+- [CSS 글자 속성](./05_text/README.md)

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.click {
+  color: gray;
+}
+
+h2 {
+  color: palevioletred;
+  text-align: center;
+  margin: 40px 0;
+}
+
+figure {
+  text-align: center;
+  /* 이미지를 감싸고 있는 요소에 중앙정렬을 줘야함 */
+}
+
+figcaption {
+  font-weight: bold;
+  margin: 20px;
+}
+
+p#menu {
+  height: 50px;
+  align-content: center;
+  text-align: center;
+  font-weight: bold;
+  /* 패딩 값을 위 아래로 넣어도 됨 */
+}
+
+.text {
+  margin: 30px;
+}
+
+p {
+  text-align: center;
+}
+
+span.menu {
+  margin-left: 10px;
+  margin-right: 10px;
+  /* margin: 0 10px */
+  /* 여백 2개의 값 사용시 앞의 값(상하), 뒤의 값(좌우) */
+}
+
+span.title {
+  color: red;
+}
