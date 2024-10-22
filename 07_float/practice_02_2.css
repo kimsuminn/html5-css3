@@ -1,0 +1,50 @@
+/* box-sizing: border-box; 적용 한 것 */
+/* box-sizing을 하지 않은 것 처럼 크기를 키우고 싶다면 박스크기를 늘려서 작성하면 됨 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.allbox {
+  margin: 10px auto;
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#logo {
+  background-color: #ffa500;
+  width: 550px;
+  height: 300px;
+  margin: 30px auto;
+  align-content: center;
+}
+
+#menubar {
+  border: 3px solid #0000ff;
+  width: 1390px;
+  height: 50px;
+  margin: auto;
+  align-content: center;
+}
+
+.box {
+  width: 1416px;
+  height: 528px;
+  /* width: 1280px;
+  height: 480px; */
+  margin: auto;
+}
+
+.classbox {
+  width: 334px;
+  height: 224px;
+  border: 2px solid #ff0000;
+  margin: 20px 10px;
+  padding: 10px 15px;
+  float: left;
+  align-content: center;
+}

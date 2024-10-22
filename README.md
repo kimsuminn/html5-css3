@@ -6,3 +6,4 @@
 - [기초선택자](./04_selector/README.md)
 - [CSS 글자 속성](./05_text/README.md)
 - [div](./06_div/README.md)
+- [float](./07_float/README.md)
