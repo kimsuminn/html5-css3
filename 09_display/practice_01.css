@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+#wrap {
+  width: 990px;
+  margin: 50px auto;
+}
+
+#top {
+  width: 661px;
+  height: 100px;
+}
+
+.logo {
+  width: 208px;
+  height: 55px;
+  float: left;
+  margin-top: 13px;
+  /* margin: 22.5px 0; top > 중앙 */
+}
+
+.search {
+  width: 443px;
+  height: 74px;
+  float: right;
+  margin: 13px 0;
+}
+
+#menu {
+  width: 100%;
+  height: 40px;
+  background-color: #17b75e;
+}
+
+li {
+  float: left;
+  height: 26px;
+  align-content: center;
+  margin: 7px 14px;
+  color: #fff;
+  font-weight: 500;
+}
+
+#contents {
+  width: 100%;
+  height: 500px;
+  margin: 30px auto;
+}
+
+.c_left {
+  width: 634px;
+  float: left;
+}
+
+.c_right {
+  width: 326px; /* 990-634-30 */
+  float: right;
+}
+
+.banner {
+  width: 100%;
+  /* 100%를 쓰거나 auto 처리하면 편함 */
+  height: 100px;
+}
+
+.left_1 {
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 1px solid black;
+  background-color: white;
+  margin: 10px 0;
+}
+
+.left_2 {
+  width: 100%;
+  height: 330px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.right_1 {
+  width: 100%;
+  height: 150px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 1px solid black;
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+.right_2 {
+  width: 100%;
+  height: 340px;
+  padding-left: 10px;
+  padding-top: 10px;
+  border: 1px solid black;
+  background-color: white;
+}
