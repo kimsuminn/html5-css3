@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+figure {
+  width: fit-content;
+  height: fit-content;
+}
+
+#wrap {
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.top {
+  width: 100%;
+  overflow: hidden;
+}
+
+.top .left {
+  width: 750px;
+  height: 500px;
+  background-image: url(./img/0320-1.jpg);
+  float: left;
+}
+
+.top .left div {
+  margin-top: 250px;
+  padding: 16px;
+}
+
+.top .left div p:first-child {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.top .right {
+  width: 250px;
+  float: right;
+}
+
+.contents {
+  width: 100%;
+  height: 500px;
+}
+
+.contents .left {
+  width: 750px;
+  height: 100%;
+  float: left;
+}
+
+.contents .left div {
+  width: 250px;
+  height: 250px;
+  float: left;
+}
+
+.contents .left div:nth-child(2n+1) {
+  background-color: #faf;
+}
+
+.contents .left div:nth-child(2n) {
+  background-color: #5af;
+}
+
+.contents .right {
+  width: 250px;
+  height: 100%;
+  float: right;
+  background-color: #2bf;
+}
+
+.bottom {
+  width: 100%;
+  height: 40px;
+}
+
+.bottom .left {
+  width: 750px;
+  height: 100%;
+  align-content: center;
+  float: left;
+  background-color: #999;
+}
+
+.bottom .left ul li {
+  margin-left: 16px;
+  color: #fff;
+  font-size: 12px;
+  float: left;
+}
+
+.bottom .left ul li:not(:last-child)::after {
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 12px;
+  background-color: #2bf;
+  margin-left: 16px;
+}
+
+.bottom .right {
+  width: 250px;
+  height: 100%;
+  align-content: center;
+  text-align: center;
+  float: right;
+  background-color: #222;
+}
+
+.bottom .right p {
+  color: #fff;
+}
